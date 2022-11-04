@@ -1,3 +1,3 @@
 # slider-vanilla-js
-![Preview](preview.png)
 
+![Preview](/preview.png)
