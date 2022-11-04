@@ -95,7 +95,10 @@ p {
   align-items: center;
   gap: 1rem;
   color: #fff;
-  cursor: pointer;
+  /* cursor: pointer; */
+}
+.indicator p {
+  margin-bottom: 0.75rem;
 }
 .indicator-active {
   width: 30px;
@@ -103,9 +106,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: #fff;
   background: #0135ec;
-  padding: 0.3rem;
+  /* padding: 0.3rem; */
   transition: 0.5s all;
   border-radius: 100%;
 }
