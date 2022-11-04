@@ -47,7 +47,7 @@ let setPosition = (index) => {
 let moveImage = () => {
   if (i === sliderImage.length) {
     i = 0; // If the counter has already reached the last item, it sends it to the first item.
-  } else if (i == -1) {
+  } else if (i === -1) {
     i = sliderImage.length - 1; // If I get to the first one, it sends it to the last one.
   }
   reset(sliderImage, 'slider-image-active');
@@ -57,7 +57,7 @@ let moveImage = () => {
 
 btnChevron.forEach((btn) => {
   btn.addEventListener('click', () => {
-    if (btn.dataset.action == 'right') {
+    if (btn.dataset.action === 'right') {
       i++;
       return moveImage();
     }
